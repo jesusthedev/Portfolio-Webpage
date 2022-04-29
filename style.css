@@ -1,0 +1,142 @@
+/* general styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+
+img {
+  width: 30%;
+}
+
+img.rounded {
+  border-radius: 40px;
+}
+
+main h2 {
+  font-size: 28px;
+  font-family: 'Tapestry', cursive;
+  font-weight: 400;
+}
+
+main h3 {
+  font-size: 28px;
+  font-family: 'Tapestry', cursive;
+  font-weight: 400;
+}
+
+main p {
+ font-family: 'Tapestry', cursive;
+ line-height: 1.5em;
+ margin-bottom: 0em;
+}
+
+/* header styles */
+
+header {
+  background-color: #040404;
+  margin-bottom: 30px;
+  display: block;
+}
+
+header h1 {
+  color: #808080;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Tapestry', cursive;
+  font-size: 60px;
+}
+
+
+/*  main and intro styles */
+
+main  .wrapper  h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+main .intro {
+  font-size: 24px;
+  color: #040404;
+}
+
+/* article section styles */
+
+#home, #contact {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+/* groups and items */
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px; 
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+
+/* about me styles*/
+
+#about {
+  background-color: #808080;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+  text-align: center;
+}
+
+/* ordered and unordered list styles*/
+
+ul {
+  display: block;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 0em;
+  margin-bottom: 1 em;
+  margin-left: 0em;
+  margin-right: 0em; 
+  font-family: 'Tapestry', cursive;
+  }
+ol {
+  display: block;
+  list-style-position: inside;
+  margin-top: 0em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0; 
+  font-family: 'Tapestry', cursive;
+  }
+}
+
+/* link styles - unvisited, visited, hover, active - in that order*/
+
+a:link {
+  color:black;
+}
+a:visited {
+  color:#808080
+}
+a:hover {
+  color: #d9d9d9;
+}
+a:active {
+  color: red;
+}
+
+/* footer style */
+
+footer {
+    text-align: center;
+}
