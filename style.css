@@ -64,6 +64,7 @@ main .intro {
 #home, #contact {
   margin-bottom: 120px;
   text-align: center;
+   font-size: 18px;
 }
 
 /* groups and items */
